@@ -1,11 +1,14 @@
 import React from 'react';
 import './Post.css';
+import Avatar from '@mui/material/Avatar'
 
 function Post() {
     return (
         <div className="post">
             {/* header -  avatar and username*/}
             <h3>Username</h3>
+            <Avatar>H</Avatar>
+
             {/* image */}
             <img className="post__image"
                 src="https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg"

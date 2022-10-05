@@ -6,8 +6,12 @@ function Post() {
     return (
         <div className="post">
             {/* header -  avatar and username*/}
-            <h3>Username</h3>
-            <Avatar>H</Avatar>
+            <Avatar
+                className="post__avatar" 
+                alt="heygoodlurking"
+                src="https://www.w3schools.com/howto/img_avatar2.png"
+            />
+            <h3>Username: heygoodlurking</h3>
 
             {/* image */}
             <img className="post__image"

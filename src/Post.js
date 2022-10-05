@@ -17,7 +17,7 @@ function Post({ username, caption, imageUrl }) {
 
             {/* image */}
             <img className="post__image"
-                src="https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg"
+                src={imageUrl}
                 alt="mountains under mist"
                 />
 

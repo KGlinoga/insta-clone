@@ -3,3 +3,7 @@
     object-fit: contain;
     /* maintains the aspect ratio of the image */
 }
+
+.post__text {
+    font-weight: normal;
+}

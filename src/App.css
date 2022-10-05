@@ -4,10 +4,13 @@
 
 .app {
   background-color: #fafafa;
+  height: 100vh;
 }
 
-.app_header {
+.app__header {
   object-fit: contain;
   /* keeps the IG logo exactly the same size no matter the viewport. modelled after IG IRL */
   background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
 }

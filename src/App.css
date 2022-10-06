@@ -17,3 +17,12 @@
   width: 100%;
   z-index: 1;
 }
+
+.IGLogo {
+  height: 50px;
+}
+
+.row {
+  display: flex;
+  
+}

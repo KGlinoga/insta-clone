@@ -10,9 +10,6 @@ export default function Container() {
     
 
     return (
-       
-            
-                <Header />
-          
-    )
+         <Header />
+        )
 }

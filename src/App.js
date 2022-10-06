@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import Post from './Post'
+import Post from './Post';
+// import { db } from './firebase';
 
 function App() {
   const [posts, setPosts] = useState([
@@ -16,6 +17,14 @@ function App() {
     }
   ]);
 
+  // useEffect: runs a piece of code based on a specific condition
+
+  // useEffect(() => {
+  //   // where the code runs
+  //   db.collection('posts').onSnapshot(snapshot => {
+  //       setPosts(snapshot.docs.map(doc => doc.data()))
+  //     })
+  // }, []);
 
   return (
     <div className="app">

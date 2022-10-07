@@ -10,6 +10,9 @@ export default function Container() {
     
 
     return (
+        <div className="container-fluid-body">
          <Header />
-        )
+        
+        </div>
+            )
 }

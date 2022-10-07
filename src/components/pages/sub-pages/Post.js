@@ -3,8 +3,6 @@ import './Post.css';
 import Card from './Card';
 import Avatar from '@mui/material/Avatar';
 
-
-
     const posts = [
         {
             username: "JenWalters",

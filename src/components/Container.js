@@ -3,6 +3,7 @@ import '../App.css';
 import Header from './Header';
 // then import the page components
 import Home from './pages/Home';
+import Msg from './pages/Msg';
 
 
 
@@ -17,10 +18,12 @@ export default function Container() {
             <br></br>
             <br></br>
             <br></br>
-            
+            <br></br>
+
             <div>
                 {/* {renderPage()} */}
                 <Home />
+                <Msg />
             </div>
 
        

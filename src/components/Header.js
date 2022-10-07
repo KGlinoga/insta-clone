@@ -1,13 +1,12 @@
 import React from 'react';
 import '../App.css';
 import HomeIcon from '@mui/icons-material/Home';
-
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 
 function Header() {
     return (
         <div className="app__header row">
 
-    <HomeIcon />
             <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
                 alt="IG"
@@ -15,6 +14,15 @@ function Header() {
             />
             
             <div className="nav nav-tabs nav-justified">
+
+                <ul className="navBar">
+                    <li className="navIcon">
+                        <HomeIcon />
+                    </li>
+                    <li className="navIcon">
+                        <ChatBubbleOutlineIcon />
+                    </li>
+                </ul>
                 {/* <ul>
                     <li className="nav-item">
                         <a>

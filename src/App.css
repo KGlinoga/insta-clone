@@ -24,6 +24,16 @@
   
 }
 
+.barPlaceHolder {
+  background-color: lightgray;
+  border: 1px solid darkgrey;
+  padding: 8px;
+  border-radius: 4px;
+/* OK we have the searchbar placeholder looking OK.. but now how to center it??  */
+  /* position: relative;
+  justify-content: space-between; */
+  }
+
 .row {
   display: flex;
 
@@ -38,4 +48,5 @@
 
 .navIcon {
   display: inline;
+  padding: 10px;
 }

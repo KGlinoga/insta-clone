@@ -7,6 +7,9 @@ import ExploreIcon from '@mui/icons-material/Explore';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import Avatar from '@mui/material/avatar';
 import Face2Icon from '@mui/icons-material/Face2';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import AppBar from '@mui/material/AppBar';
+
 
 function Header() {
     return (
@@ -17,6 +20,10 @@ function Header() {
                 alt="IG"
                 className="IGLogo"
             />
+
+            <KeyboardArrowDownIcon />
+
+            <div className="barPlaceHolder"> search</div>
             
             <div className="nav nav-tabs nav-justified">
 

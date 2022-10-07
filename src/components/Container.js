@@ -13,12 +13,17 @@ export default function Container() {
     return (
         <div className="container-fluid-body">
             <Header />
+            {/* LOL the following br tags cannot POSSIBLY be the best way to do this, but it DID produce the right effect - getting the main page out from behind the fixed navbar */}
+            <br></br>
+            <br></br>
+            <br></br>
             
             <div>
                 {/* {renderPage()} */}
                 <Home />
             </div>
 
+            <h1>hi!</h1>
         </div>
             )
 }

@@ -18,7 +18,9 @@ function Header() {
 
             <div className="barPlaceHolder"> search</div>
             
-           <NavBar />
+            {/* <NavBar
+                currentPage={currentPage}
+                handlePageChange={handlePageChange} /> */}
                 
         </div>
     )

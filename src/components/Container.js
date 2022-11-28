@@ -32,9 +32,9 @@ export default function Container() {
             <br></br>
             <br></br>
 
-            {/* <NavBar
+            <NavBar
                 currentPage={currentPage}
-                handlePageChange={handlePageChange} /> */}
+                handlePageChange={handlePageChange} />
             
             {renderPage()}
             

@@ -11,6 +11,10 @@ export default function NavBar() {
     return (
         <div className="nav nav-tabs nav-justified">
 
+            {/* <NavBar
+                currentPage={currentPage}
+                handlePageChange={handlePageChange} /> */}
+
             <ul className="navBar" >
                 <li className="navIcon">
                     <HomeIcon />
@@ -36,6 +40,7 @@ export default function NavBar() {
                     <Face2Icon />
                 </li>
 
+                {/* Use React Router!! */}
 
             </ul>
         </div>
